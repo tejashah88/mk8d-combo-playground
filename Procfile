@@ -1,0 +1,1 @@
+web: IS_HEROKU=1 panel serve --address="0.0.0.0" --port=$PORT notebooks/02_analyze_combos.ipynb --allow-websocket-origin=mk8d-combo-playground-987337d66762.herokuapp.com --warm --reuse-sessions --global-loading-spinner

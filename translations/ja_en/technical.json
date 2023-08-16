@@ -1,0 +1,20 @@
+{
+    "キャラ": "Character",
+    "パーツ": "Parts",
+    "スピード": "Speed",
+    "加速": "Acceleration",
+    "重さ": "Weight",
+    "曲がりやすさ": "Handling",
+    "すべり": "Slip",
+    "にくさ": "Resistance",
+    "ミニ": "Mini",
+    "ターボ": "Turbo",
+    "無敵度": "Invincibility",
+    "陸": "Land",
+    "水": "Water",
+    "空": "Air",
+    "反": "Anti-G",
+    "（": "(",
+    "）": ")",
+    "Slip<br/>Resistance": "Off-Road Traction"
+}

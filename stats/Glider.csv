@@ -1,0 +1,5 @@
+Parts,Speed - Land,Speed - Water,Speed - Air,Speed - Anti-G,Acceleration,Weight,Handling - Land,Handling - Water,Handling - Air,Handling - Anti-G,Off-Road Traction,Mini Turbo,Invincibility
+Cloud Glider / Parachute / Flower Glider / Paper Glider,0.0,1.0,1.0,1.0,2.0,0.0,1.0,0.0,2.0,1.0,1.0,2.0,0.0
+Peach Parasol / Parafoil / Bowser Kite / MKTV Parafoil,0.0,0.0,1.0,1.0,2.0,1.0,1.0,1.0,2.0,0.0,0.0,2.0,0.0
+Super Glider / Waddle Wing / Hylian Kite,1.0,1.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+Wario Wing / Plane Glider / Gold Glider / Paraglider,1.0,0.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
