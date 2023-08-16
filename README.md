@@ -4,6 +4,17 @@ Live Website: https://app.mk8d-combo-playground.com
 
 A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the various in-game stats from `japan-mk.blog.jp` and one for setting up the combo playground visualizer.
 
+*NOTICE*: The plots on the live website will take a few seconds to regenerate when tweaking the parameters. **PLEASE. BE. PATIENT.**
+
+## Kart Combo Playground
+
+![Screenshot of Kart Combo Playground - 3D View](images/playground-3d-view.png)
+![Screenshot of Kart Combo Playground - 2D View](images/playground-2d-view.png)
+
+## In-game Statistics Comparision Heatmap
+
+![Screenshot of in-game statistics for each part category](images/game-stat-heatmap.png)
+
 ## Features
 * Given 2 or 3 important in-game statistics to inspect...
     * Visualize all combos within the parameter space and see how the stack against each other.
@@ -16,17 +27,6 @@ A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and 
 ### Notes
 * The coloring for all combos is defined such that the middle color (yellow) is defined at the 70th percentile point to exaggerate the differences for near-meta builds.
 * The importance weights will also reflect on the pareto-optimal combos as well.
-
-## Kart Combo Playground
-
-### With 3 features selected...
-![Screenshot of Kart Combo Playground - 3D View](images/playground-3d-view.png)
-
-### With 2 features selected...
-![Screenshot of Kart Combo Playground - 2D View](images/playground-2d-view.png)
-
-## In-game Statistics comparision heatmap
-![Screenshot of in-game statistics for each part category](images/game-stat-heatmap.png)
 
 ## Setup
 
