@@ -1,6 +1,6 @@
 # Mario Kart 8 Deluxe - Combo Playground
 
-Live Website: https://mk8d-combo-playground.herokuapp.com
+Live Website: https://mk8d-combo-playground-987337d66762.herokuapp.com/02_analyze_combos
 
 A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the various in-game stats from `japan-mk.blog.jp` and one for setting up the combo playground visualizer.
 
