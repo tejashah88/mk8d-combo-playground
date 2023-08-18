@@ -46,3 +46,7 @@ A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and 
 4. `jupyter lab`
 5. (Run all cells in `notebooks/01_scrape_data.ipynb`)
 6. (Run all cells in `notebooks/02_analyze_combos.ipynb`)
+
+## More resources
+* Mario Kart 8 Deluxe Builder (Tobias Mattsson) - https://mk8dxbuilder.com/
+* Bayesic's Original Build Optimizer (Bayesic) - https://bayesicmk8dx.shinyapps.io/mk8_build_optimizer/
