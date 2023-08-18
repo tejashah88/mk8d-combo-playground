@@ -8,8 +8,14 @@ A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and 
 
 ## Kart Combo Playground
 
+### 3D View
 ![Screenshot of Kart Combo Playground - 3D View](images/playground-3d-view.png)
+
+### 2D View
 ![Screenshot of Kart Combo Playground - 2D View](images/playground-2d-view.png)
+
+### Selected point lookup table
+![Screenshot of selected point lookup table](images/selected-point-lookup-table.png)
 
 ## In-game Statistics Comparision Heatmap
 
