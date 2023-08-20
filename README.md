@@ -2,37 +2,27 @@
 
 Live Website: https://app.mk8d-combo-playground.com
 
-A playground to explore optimal Mario Kart 8 combos via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the various in-game stats from `japan-mk.blog.jp` and one for setting up the combo playground visualizer.
-
-*NOTICE*: The plots on the live website will take a few seconds to regenerate when tweaking the parameters. **PLEASE. BE. PATIENT.**
-
-## Kart Combo Playground
-
-### 3D View
 ![Screenshot of Kart Combo Playground - 3D View](images/playground-3d-view.png)
 
-### 2D View
-![Screenshot of Kart Combo Playground - 2D View](images/playground-2d-view.png)
+A playground to explore optimal Mario Kart 8 build via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the in-game stats from `japan-mk.blog.jp` and one for setting up the combo playground visualizer.
 
-### Selected point lookup table
-![Screenshot of selected point lookup table](images/selected-point-lookup-table.png)
-
-## In-game Statistics Comparision Heatmap
-
-![Screenshot of in-game statistics for each part category](images/game-stat-heatmap.png)
+*NOTICE*: The plots on the live website will take a few seconds to regenerate when changing the parameters or controls. **PLEASE. BE. PATIENT.**
 
 ## Features
-* Given 2 or 3 important in-game statistics to inspect...
-    * Visualize all combos within the parameter space and see how the stack against each other.
-    * Show pareto-optimal combos based on selected stats and find the best one based on what stats matter to you (via importance weights).
-    * Tweak the importance weights of stats to compare & contrast viability of builds for different game scenarios (VS races vs Time Trials).
-    * Click on any scatterpoint to see a table of all the possible combos (*not shown in pics*).
-    * Choose your preferred build and see how it stacks up against the rest of the combos.
+Let's say you want to find the best kart build based on 2 or 3 in-game stats. With this playground you can...
+* Visualize all possible builds and see how they stack against each other based on selected stats.
+    ![Screenshot of Kart Combo Playground - All Combos View](images/playground-all-combos-view.png)
+* View all pareto-optimal combos and find the best one based on what stats matter to you (via the importance weights).
+    ![Screenshot of Kart Combo Playground - Pareto Combos View](images/playground-pareto-combos-view.png)
+* Click on any scatterpoint to see a table of all the possible builds matching the selected stats.
+    ![Screenshot of Kart Combo Playground - Selected Point Lookup Table](images/selected-point-lookup-table.png)
+* Choose your preferred build and see how it stacks up against the rest.
+    ![Screenshot of Kart Combo Playground - Your Combo View](images/playground-your-combo-view.png)
 * Compare in-game statistics for each part category (characters, frames, tires, and gliders) via the comparision heatmap.
+    ![Screenshot of in-game statistics for each part category](images/game-stat-heatmap.png)
 
 ### Notes
 * The coloring for all combos is defined such that the middle color (yellow) is defined at the 70th percentile point to exaggerate the differences for near-meta builds.
-* The importance weights will also reflect on the pareto-optimal combos as well.
 
 ## Setup
 
