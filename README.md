@@ -4,7 +4,7 @@ Live Website: https://app.mk8d-combo-playground.com
 
 ![Screenshot of Kart Combo Playground - 3D View](images/playground-3d-view.png)
 
-A playground to explore optimal Mario Kart 8 build via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the in-game stats from `japan-mk.blog.jp` and one for setting up the combo playground visualizer.
+A playground to explore optimal Mario Kart 8 build via Pareto Optimization and fancy plots. This repository contains 2 notebooks, one for scraping the in-game stats from http://japan-mk.blog.jp/ (*as of August 16th, 2023*) and one for setting up the combo playground visualizer.
 
 *NOTICE*: The plots on the live website will take a few seconds to regenerate when changing the parameters or controls. **PLEASE. BE. PATIENT.**
 
@@ -43,6 +43,7 @@ Let's say you want to find the best kart build based on 2 or 3 in-game stats. Wi
 5. (Run all cells in `notebooks/01_scrape_data.ipynb`)
 6. (Run all cells in `notebooks/02_analyze_combos.ipynb`)
 
-## More resources
+## More resources / Credits
+* Japan's Mario Kart Blog - http://japan-mk.blog.jp/
 * Mario Kart 8 Deluxe Builder (Tobias Mattsson) - https://mk8dxbuilder.com/
 * Bayesic's Original Build Optimizer (Bayesic) - https://bayesicmk8dx.shinyapps.io/mk8_build_optimizer/
