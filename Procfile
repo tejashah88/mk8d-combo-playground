@@ -1,1 +1,0 @@
-web: panel serve --address="0.0.0.0" --port=$PORT notebooks/02_analyze_combos.ipynb --allow-websocket-origin=app.mk8d-combo-playground.com --allow-websocket-origin=app2.mk8d-combo-playground.com --warm --reuse-sessions --global-loading-spinner
